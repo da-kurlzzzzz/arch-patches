@@ -1,0 +1,11 @@
+--- grub	2022-01-11 02:34:39.975581800 +0300
++++ grub.new	2022-01-11 02:36:27.970219300 +0300
+@@ -44,7 +44,7 @@
+ 
+ # Uncomment one of them for the gfx desired, a image background or a gfxtheme
+ #GRUB_BACKGROUND="/path/to/wallpaper"
+-#GRUB_THEME="/path/to/gfxtheme"
++GRUB_THEME="/usr/share/grub/themes/dedsec-grub2-theme-compact/theme.txt"
+ 
+ # Uncomment to get a beep at GRUB start
+ #GRUB_INIT_TUNE="480 440 1"

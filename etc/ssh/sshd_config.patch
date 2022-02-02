@@ -1,0 +1,10 @@
+--- sshd_config	2021-09-26 21:41:51.000000000 +0300
++++ sshd_config.new	2022-01-11 03:06:50.736709700 +0300
+@@ -114,3 +114,7 @@
+ #	AllowTcpForwarding no
+ #	PermitTTY no
+ #	ForceCommand cvs server
++
++PasswordAuthentication no
++AuthenticationMethods publickey
++PermitRootLogin no
