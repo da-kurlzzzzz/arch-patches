@@ -1,6 +1,6 @@
---- reflector.conf	2022-02-02 08:50:20.966249973 +0300
-+++ reflector.conf.new	2022-02-02 08:52:56.906423058 +0300
-@@ -18,10 +18,14 @@
+--- reflector.conf	2022-02-04 01:12:34.369783608 +0300
++++ reflector.conf.new	2022-02-04 01:13:11.843970146 +0300
+@@ -18,10 +18,12 @@
  # Select the country (--country).
  # Consult the list of available countries with "reflector --list-countries" and
  # select the countries nearest to you or the ones that you trust. For example:
@@ -10,11 +10,9 @@
  # Use only the  most recently synchronized mirrors (--latest).
 ---latest 5
 +# --latest 5
-+--age 24
++--age 1
  
  # Sort the mirrors by synchronization time (--sort).
 ---sort age
 +# --sort age
 +--fastest 20
-+
-+--threads 256
