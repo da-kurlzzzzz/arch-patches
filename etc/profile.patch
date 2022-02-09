@@ -1,0 +1,8 @@
+--- profile	2022-02-09 10:28:00.096673169 +0300
++++ profile.new	2022-02-09 10:27:45.930005530 +0300
+@@ -48,3 +48,5 @@
+ 
+ # Man is much better than us at figuring this out
+ unset MANPATH
++
++setterm --blength 0 2>/dev/null

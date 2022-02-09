@@ -1,9 +1,0 @@
---- inputrc	2022-02-08 15:05:35.633358292 +0300
-+++ inputrc.new	2022-02-08 15:09:41.593342965 +0300
-@@ -1,5 +1,5 @@
- # do not bell on tab-completion
--# set bell-style none
-+set bell-style none
- 
- set meta-flag on
- set input-meta on
