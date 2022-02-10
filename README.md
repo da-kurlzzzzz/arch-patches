@@ -11,6 +11,5 @@ installation. Apply any of them to your files with
   patch was created
 * Cinnamon panel looks better when it is transparent
 * Yes, multilib is a valid repo for pacman
-* Yes, I live in Russia
 
 <!-- vim:set tw=78: -->

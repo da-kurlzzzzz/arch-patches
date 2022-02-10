@@ -1,18 +1,16 @@
---- reflector.conf	2022-02-04 01:12:34.369783608 +0300
-+++ reflector.conf.new	2022-02-04 01:13:11.843970146 +0300
-@@ -18,10 +18,12 @@
- # Select the country (--country).
- # Consult the list of available countries with "reflector --list-countries" and
- # select the countries nearest to you or the ones that you trust. For example:
--# --country France,Germany
-+--country Russia,*
+--- reflector.conf	2022-02-10 12:18:28.405677658 +0300
++++ reflector.conf.new	2022-02-10 12:21:15.400599692 +0300
+@@ -21,7 +21,11 @@
+ # --country France,Germany
  
  # Use only the  most recently synchronized mirrors (--latest).
 ---latest 5
-+# --latest 5
-+--age 1
++--latest 64
  
  # Sort the mirrors by synchronization time (--sort).
 ---sort age
 +# --sort age
-+--fastest 20
++--sort rate
++
++--download-timeout 1
++--fastest 8
