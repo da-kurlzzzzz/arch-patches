@@ -1,6 +1,6 @@
---- reflector.conf	2022-02-10 12:18:28.405677658 +0300
-+++ reflector.conf.new	2022-02-10 12:21:15.400599692 +0300
-@@ -21,7 +21,11 @@
+--- reflector.conf	2022-02-18 20:57:22.479518018 +0300
++++ reflector.conf.new	2022-02-18 20:58:32.973001640 +0300
+@@ -21,7 +21,10 @@
  # --country France,Germany
  
  # Use only the  most recently synchronized mirrors (--latest).
@@ -12,5 +12,4 @@
 +# --sort age
 +--sort rate
 +
-+--download-timeout 1
 +--fastest 8
