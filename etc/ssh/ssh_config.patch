@@ -1,0 +1,7 @@
+--- ssh_config	2022-02-23 21:48:29.000000000 +0300
++++ ssh_config.new	2022-04-05 14:29:08.783335144 +0300
+@@ -44,3 +44,4 @@
+ #   ProxyCommand ssh -q -W %h:%p gateway.example.com
+ #   RekeyLimit 1G 1h
+ #   UserKnownHostsFile ~/.ssh/known_hosts.d/%k
++StrictHostKeyChecking no
