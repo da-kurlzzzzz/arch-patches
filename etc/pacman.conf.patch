@@ -1,6 +1,6 @@
---- pacman.conf	2022-01-08 12:13:06.000000000 +0300
-+++ pacman.conf.new	2022-01-11 02:54:56.552961200 +0300
-@@ -30,7 +30,7 @@
+--- pacman.conf	2022-05-11 11:18:28.390075791 +0300
++++ pacman.conf.new	2022-05-11 11:18:54.433410914 +0300
+@@ -30,10 +30,10 @@
  
  # Misc options
  #UseSyslog
@@ -8,7 +8,11 @@
 +Color
  #NoProgressBar
  CheckSpace
- #VerbosePkgLists
+-#VerbosePkgLists
++VerbosePkgLists
+ #ParallelDownloads = 5
+ 
+ # By default, pacman accepts packages signed by keys that its local keyring
 @@ -90,8 +90,8 @@
  #[multilib-testing]
  #Include = /etc/pacman.d/mirrorlist
