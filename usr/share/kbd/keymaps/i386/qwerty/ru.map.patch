@@ -1,0 +1,11 @@
+--- ru.map	2022-05-17 14:18:10.630031287 +0300
++++ ru.map.new	2022-05-17 14:23:04.233384792 +0300
+@@ -343,7 +343,7 @@
+ altgr   shift           keycode  57 = space
+ altgr   alt             keycode  57 = Meta_space
+ altgr   control         keycode  57 = nul
+-                        keycode  58 = Caps_Lock
++                        keycode  58 = Escape
+                         keycode  59 = F1
+         shift           keycode  59 = F11
+         alt             keycode  59 = Console_1
