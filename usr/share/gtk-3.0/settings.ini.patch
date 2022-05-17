@@ -1,0 +1,7 @@
+--- settings.ini	2022-05-14 04:08:33.000000000 +0300
++++ settings.ini.new	2022-05-17 15:13:23.506748836 +0300
+@@ -2,3 +2,4 @@
+ gtk-icon-theme-name = Adwaita
+ gtk-theme-name = Adwaita
+ gtk-font-name = Cantarell 11
++gtk-enable-event-sounds = 0
