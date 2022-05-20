@@ -1,0 +1,8 @@
+--- 25-wireless.network	2022-05-20 12:44:22.946736305 +0300
++++ 25-wireless.network.new	2022-05-20 12:41:49.950059126 +0300
+@@ -0,0 +1,5 @@
++[Match]
++Name=wlan0
++
++[Network]
++DHCP=yes

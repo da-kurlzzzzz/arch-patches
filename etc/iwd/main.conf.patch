@@ -1,8 +1,0 @@
---- main.conf	2022-02-08 16:17:57.468938200 +0300
-+++ main.conf.new	2022-02-08 16:17:30.103155500 +0300
-@@ -0,0 +1,5 @@
-+[General]
-+EnableNetworkConfiguration=true
-+
-+[Network]
-+EnableIPv6=true
