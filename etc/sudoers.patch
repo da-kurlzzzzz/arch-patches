@@ -1,0 +1,11 @@
+--- -	2024-11-14 19:31:20.146248568 +0300
++++ etc/sudoers	2024-09-18 15:04:20.100017325 +0300
+@@ -118,7 +118,7 @@
+ root ALL=(ALL:ALL) ALL
+ 
+ ## Uncomment to allow members of group wheel to execute any command
+-# %wheel ALL=(ALL:ALL) ALL
++%wheel ALL=(ALL:ALL) ALL
+ 
+ ## Same thing without a password
+ # %wheel ALL=(ALL:ALL) NOPASSWD: ALL
