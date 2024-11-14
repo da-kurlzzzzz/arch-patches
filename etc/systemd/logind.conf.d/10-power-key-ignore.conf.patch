@@ -1,0 +1,5 @@
+--- /dev/null	2024-11-14 12:44:24.366416048 +0300
++++ 10-power-key-ignore.conf	2024-09-25 12:06:03.780091796 +0300
+@@ -0,0 +1,2 @@
++[Login]
++HandlePowerKey=ignore
