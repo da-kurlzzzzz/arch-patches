@@ -1,0 +1,11 @@
+--- -	2024-11-14 19:27:43.722717119 +0300
++++ etc/mkinitcpio.conf	2024-09-18 17:48:19.970005303 +0300
+@@ -52,7 +52,7 @@
+ #
+ ##   NOTE: If you have /usr on a separate partition, you MUST include the
+ #    usr and fsck hooks.
+-HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont block filesystems fsck)
++HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont block filesystems resume fsck)
+ 
+ # COMPRESSION
+ # Use this to compress the initramfs image. By default, zstd compression
